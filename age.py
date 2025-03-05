@@ -4,7 +4,6 @@ from datetime import datetime  # Import datetime module
 user_date_str = input("Enter a specific date (dd/mm/yyyy): ")
 
 # Convert user input (string) to a datetime object
-# Convert user input to datetime object
 user_date = datetime.strptime(user_date_str, "%d/%m/%Y")
 
 # Get current date
